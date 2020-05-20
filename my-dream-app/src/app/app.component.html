@@ -1,11 +1,6 @@
-<h1>Vineeth Assignment</h1>
-<div>
-    <button (click)="OpenComponent('Warning')">Open Warning Component</button>
-    <button (click)="OpenComponent('Success')">Open Success Component</button>
-</div>
-<div *ngIf="warning">
-    <app-warning-alert></app-warning-alert>
-</div>
-<div *ngIf="success">
-    <app-success-alert></app-success-alert>
-</div>
+<ol>
+  <li>Add a Input field which updates a property ('username') via Two-Way-Binding</li>
+  <li>Output the username property via String Interpolation (in a paragraph below the input)</li>
+  <li>Add a button which may only be clicked if the username is NOT an empty string</li>
+  <li>Upon clicking the button, the username should be reset to an empty string</li>
+</ol>
