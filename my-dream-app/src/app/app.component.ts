@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-dream-app';
+  name = 'my-first-app';
+  warning = false;
+  success = false;
+
+  OpenComponent(type){
+  if(type === 'Warning'){
+    this.warning = true;
+  }
+  else if(type === 'Success') {
+    this.success = true;
+  }
+  }
+  
 }
